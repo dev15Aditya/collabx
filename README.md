@@ -1,54 +1,26 @@
-# Next.js & NextUI Template
+# React + Tldraw + Websocket + Tailwind + NextUI
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+# CollabX
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+![alt text]({BD007626-96DD-4037-9B9C-2DB2E826C15E}-1.png)
 
-## Technologies Used
+## The goal of this project is to provide various collaborating tools
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## Currently we have a collaborative whiteboard, but soon enough we will have all the features shown in image
 
-## How to Use
+## Whiteboard detail
 
-### Use the template with create-next-app
+![alt text]({39DC1800-B0C1-4259-92F8-05CD9D59E4CD}.png)
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## Key Features of whiteboard
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+- **Real-time Collaboration**: Users can draw on a shared whiteboard in real-time.
+- **Undo/Redo Actions**: Supports undoing and redoing of drawing actions.
+- **Room Creation**: Users can create rooms where collaboration takes place.
+- **Join Rooms**: Users can join existing rooms via room IDs and access the current state of the whiteboard
 
-### Install dependencies
+## How to use it:
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
-# collabx
+- Vist and click whitboard.
+- It will create a room form you with a unique id. Which can seen in page url
+- Share this URL with your friend. Enjoy 🎉
