@@ -24,3 +24,5 @@
 - Vist and click whitboard.
 - It will create a room form you with a unique id. Which can seen in page url
 - Share this URL with your friend. Enjoy 🎉
+
+![alt text]({2C8C1A73-9E6A-4202-95D1-7393FB0D41CF}.png)
