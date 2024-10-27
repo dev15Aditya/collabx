@@ -23,7 +23,9 @@ export default function ChatInterface({ userName, roomId }: ChatInterfaceProps) 
     const [socket, setSocket] = useState<Socket | null>(null);
 
     useEffect(() => {
-        const socketInstance: Socket = io('https://collaborator-be.onrender.com');
+        const socketInstance: Socket = io('https://collaborator-be.onrender.com', {
+            transports: ['websocket']
+        });
 
         setSocket(socketInstance);
 
