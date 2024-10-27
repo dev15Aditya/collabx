@@ -27,9 +27,9 @@ export default function Home() {
           Board
         </Link>
         <Link
-          isExternal
+          // isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={`/`}
+          href={`/chat`}
         >
           <Chat size={20} />
           Messanger
